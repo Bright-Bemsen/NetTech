@@ -8,7 +8,7 @@ function Login() {
   //getting the context
   const {name} = useContext(nameContext)
   return (  
-<form className='Login-form'>
+<form className= 'Login-form'>
 <div className='Login'>
     <h2>Welcome {name}! Continue to Login</h2>
       <input className='login-input' type="text" name='Surname' placeholder='User name' /><br></br>

@@ -1,0 +1,54 @@
+.SignUp_btn{
+color: red;
+background-color: transparent;
+border: 2px solid #f1356d;
+border-radius: 10px;
+margin-top: 2rem;
+padding: 12px 60px;
+transition: 0.4s;
+font-size: 1rem;
+width: 15rem; 
+}
+                    
+.SignUp_btn:hover{
+color: #fff;
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+background-color: #f1356d;
+}
+.input-element{
+background-color: transparent;
+width: 20rem;
+padding: 12px 60px;
+font-size: 1.5rem;
+border: 2px solid #f1356d;
+border-radius: 10px;
+margin: 0.70rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.input-element:hover{
+background-color: #f1356d;
+color: #fff;
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+}
+.form_element{
+align-items: center;
+text-align: center;
+padding-top: 2rem;
+}
+
+.signup-form{
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+background-color: #fff;
+/* border: 2px solid #f1356d; */
+border-radius: 10px;
+width: 25rem;
+height: 34rem;
+}

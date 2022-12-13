@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6{
+color: #f1356d;
+}
+
+.Parent{
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-color: #5f6f94;
+}
+
+
+.heroText{
+padding: 8rem;
+color:whitesmoke;
+font-size: 2rem;
+text-align: center;
+font-family: sans-serif;
+}
+
+.nettech{
+color:#f1356d;
+font-family: sans-serif;
+}
+
+.nettech:hover{
+color: #fff;
+transition: 1s;
+}
+
+
+
+                    
+.getBnt:hover{
+background-color: #f1356d;
+}
+
+.getBnt{
+border: 2px solid #f1356d;
+color: #fff;
+background-color: transparent;
+border-radius: 50px;
+padding: 12px 75px 9px 75px;
+transition: 0.4s;
+font-size: 14px;
+display: inline-block;             
+}
+
+
+
+
+
+/* .background-pix{
+position: absolute;
+width: 90vw;
+height: 90vh;
+} */
+

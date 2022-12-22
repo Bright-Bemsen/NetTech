@@ -2,19 +2,26 @@ h1, h2, h3, h4, h5, h6{
 color: #f1356d;
 }
 .about{
-width: 100vw;
-height: 70vh;
-background-color: #5f6f94;
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap:4px;
+gap:4px;
+width: 100%;
+height: 200vh;
+background-color: #25316d;
 }
 
 .about-content{
-display: inline-flex;
-width: 55rem;
+margin-top: 3rem;
+width: fit-content;
 height: 5rem;
-/* align-content: center; */
+padding: 1rem;
 }
 
-
+.img{
+width: 20%;
+margin: 0 0 0 0;
+}
 
 .about-forMore:hover{
 background-color: #f1356d;
@@ -22,22 +29,80 @@ background-color: #f1356d;
                     
 .about-forMore{
 border: 2px solid #f1356d;
-color: #fff;
+font-size: 1rem;
+padding: 9px 7px;
 background-color: transparent;
-border-radius: 50px;
-padding: 12px 75px 9px 75px;
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
 transition: 0.4s;
-font-size: 14px;         
+position: relative;
+top: 2px;
+
+/* border: 2px solid #f1356d;
+background-color: transparent;
+border-radius: 5px;
+padding: 12px 75px 9px 75px;
+transition: 0.4s; */
 }
 
-.about-para{
-color: #ff0000;
-margin-left: 5rem;
-margin-top: 2rem;
+.about-para1{
+margin-top: 9rem;
+color: #fff;
+text-align: justify;
 }
+
 .about-pix{
-position: absolute;
-width: 30rem;
-left: 20rem;
-height: 20rem;
+margin-top: 9rem;
+width: 52rem;
+}
+
+.about-pix:hover{
+filter: brightness(2);
+}
+                
+.about-pix{
+animation: spinImg 1s linear infinite;
+}
+                
+@keyframes spinImg {
+to{
+transform: rotate(3deg);
+}
+}
+
+.about-para2{
+margin-top: 9rem;
+color: #fff;
+/* background-color: #0088; */
+padding: 1.5rem;
+text-align: justify;
+font-size: 16px;
+}
+
+.aboutSpan{
+color: #f1356d;
+}
+
+.div{
+margin-top: 3rem;
+display: flex;
+gap:10px
+}
+
+.about-getBnt{
+border: 2px solid #f1356d;
+color: #fff;
+background-color: transparent;
+border-radius: 10px;
+padding: 6px 40px;
+transition: 0.4s;
+font-size: 20px; 
+margin-top: 2px; 
+}
+
+.about-getBnt:hover{
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+background-color: #f1356d;
 }

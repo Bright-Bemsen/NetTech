@@ -2,10 +2,10 @@
 position: absolute;
 z-index: 99;
 padding-left: 2rem;
+margin: 1.5rem;
 }
                     
 .comment-pix{
-padding-left: -10;
-width: 3rem;
+width: 10%;
 }
                     

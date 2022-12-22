@@ -5,7 +5,7 @@ function Comment() {
   return (
 <>
     <div className='commentContainer'>
-<img src="/asset/logo.png" alt="" className='comment-pix'/>
+<img src="/asset/my logo.png" alt="" className='comment-pix'/>
 <h5>Prof Bright</h5>
 <span>Programmer</span>
 

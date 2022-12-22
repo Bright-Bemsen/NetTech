@@ -8,12 +8,12 @@ function Navbar() {
     <>
     <div className='items-List'>
     <nav className='Navbar'>
-      <h2>NetTech</h2>
+    <img src="/asset/my logo.png" alt="" className='logo' />
       <ul className='links'>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/team'>Team</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><Link style={{color:'#f1356d'}}to='/'>Home</Link></li>
+        <li><Link style={{color:'#f1356d'}}to='/about'>About</Link></li>
+        <li><Link style={{color:'#f1356d'}}to='/team'>Team</Link></li>
+        <li><Link style={{color:'#f1356d'}}to='/contact'>Contact</Link></li>
       </ul>
     <input type="text" name='text' placeholder='Search Here' className='inputbt'/>
     </nav>

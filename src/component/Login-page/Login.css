@@ -2,8 +2,9 @@
 padding-top: 2rem;
 }
 .Login{
-padding-top: 2rem;
-width: 28rem;
+padding-top: 7rem;
+margin-top: 5rem;
+width: 22rem;
 height: 30rem;
 align-items: center;
 text-align: center;
@@ -19,7 +20,7 @@ border: 2px solid #f1356d;
 border-radius: 10px;
 padding: 12px 60px;
 margin: 1rem;
-font-size: 1.5rem;
+font-size: 0.9rem;
 }
 
 .login-input:hover{
@@ -39,8 +40,8 @@ font-size: 1rem;
 }
 
 .login-btn:hover{
-                    box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
-                    -webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
-                    -moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
-                    background-color: #f1356d;
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+background-color: #f1356d;
 }

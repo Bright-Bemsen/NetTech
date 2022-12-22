@@ -47,8 +47,10 @@ box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
 -webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
 -moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
 background-color: #fff;
-/* border: 2px solid #f1356d; */
+border: 2px solid #f1356d;
 border-radius: 10px;
 width: 25rem;
 height: 34rem;
+position: relative;
+top: 10rem;
 } 

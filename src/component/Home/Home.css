@@ -3,24 +3,25 @@ color: #f1356d;
 }
 
 .Parent{
-width: 100vw;
+width: 100%;
 height: 100vh;
-background-size: cover;
-background-color: #5f6f94;
+background-color: #25316d;
 }
 
-
 .heroText{
+margin-left: 5rem;
 padding: 8rem;
 color:whitesmoke;
-font-size: 2rem;
+font-size: 1.5rem;
 text-align: center;
 font-family: sans-serif;
 }
 
 .nettech{
+font-size: 10rem;
 color:#f1356d;
 font-family: sans-serif;
+margin-left: 30rem;
 }
 
 .nettech:hover{
@@ -28,31 +29,49 @@ color: #fff;
 transition: 1s;
 }
 
-
-
-                    
-.getBnt:hover{
-background-color: #f1356d;
+.ict_div{
+margin-left: 30rem;
+}
+.home-span2{
+font-size: 2rem;
+color:#fff;
+font-family: sans-serif;
+margin-left: 30rem;
+}
+.home-span2:hover{
+color: #f1356d;
+transition: 1s;
 }
 
 .getBnt{
 border: 2px solid #f1356d;
 color: #fff;
 background-color: transparent;
-border-radius: 50px;
+border-radius: 10px;
 padding: 12px 75px 9px 75px;
 transition: 0.4s;
-font-size: 14px;
-display: inline-block;             
+font-size: 18px; 
+margin-top: 2px; 
+margin-left: 55rem;        
 }
 
+.getBnt:hover{
+box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-webkit-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+-moz-box-shadow: -3px -3px 24px 11px rgba(89,23,23,0.43);
+background-color: #f1356d;
+}
 
-
-
-
-/* .background-pix{
+.home-pix{
 position: absolute;
-width: 90vw;
-height: 90vh;
-} */
+top: 10rem;
+width: 45%;
+height: 50vh;
+z-index: 99;
+
+}
+
+.home-pix:hover{
+filter: brightness(2);
+}
 

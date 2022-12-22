@@ -8,7 +8,7 @@ function Navbar() {
     <>
     <div className='items-List'>
     <nav className='Navbar'>
-      <h2>NET TECH</h2>
+      <h2>NetTech</h2>
       <ul className='links'>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>

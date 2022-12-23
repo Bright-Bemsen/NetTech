@@ -44,7 +44,7 @@ return (
         <span className="aboutSpan">You can click GET STARTED TO HAVE AN ACCOUNT WITH US OR FOR MORE to see MORE !!</span>
         <div className="div">
         <p> <Link style={{color:'#fff'}} className='about-getBnt' to='/getStarted'>Get Started ?</Link></p>
-        <p> <Link style={{color:'#fff'}} className='about-forMore' to='/getStarted'>For More ?</Link> </p>
+        <p> <Link style={{color:'#fff'}} className='about-forMore' to='/forMore'>For More ?</Link> </p>
         </div>
         </p>
         <div className="img">

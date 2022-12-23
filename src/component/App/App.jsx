@@ -10,6 +10,7 @@ import Comment from '../Comment-page/Comment';
 import Login from '../Login-page/Login';
 import GetStarted from '../GetStarted-button/GetStarted';
 import { nameContext } from '../../context';
+import ForMore from '../ForMore-page/ForMore';
 
 function App(){
   const [name, setname] = useState("none")
@@ -30,6 +31,7 @@ function App(){
         <Route path='*' element={<Error/>} />
         <Route path='/Comment' element={<Comment/>} />
         <Route path='/Login' element={<Login/>} />
+        <Route path='/forMore' element={<ForMore/>} />
       
       </Routes>
       <Comment/>

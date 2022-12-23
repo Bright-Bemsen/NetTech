@@ -14,7 +14,7 @@ function Login() {
     <h2>Welcome {name}! Continue to Login</h2>
       <input className='login-input' type="text" name='Surname' placeholder='User name' required/><br></br>
       <input className='login-input' type="text" name='Passward' placeholder='Passward' required/><br></br>
-      <Link className='login-btn' to='Team'><button type='Login' className='Login_btn' placeholder='Login'>Login</button></Link>
+      <Link className='login-btn' to='/'><button type='Login' className='Login_btn' placeholder='Login'>Login</button></Link>
       <Link to='/'>Back</Link>
 </div>
 </form>

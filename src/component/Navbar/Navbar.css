@@ -16,6 +16,7 @@ transition: 0.3s;
 background-color: #25316d;
 box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 position: fixed;
+z-index: 50;
 }
                   
 h2{
